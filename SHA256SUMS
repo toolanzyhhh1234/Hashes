@@ -1,0 +1,8 @@
+8543c757d1da6a1efc704cbeb97262effab650a1ea3af9bdf51ebdcbfb53a01c  docs/NLF-RLVR-1.md
+6b3bf44df1932b5a538a0a4d330038968f69bd703de841cfb4f9cd1b4972fc1e  docs/RLVR-implementation.md
+
+# Hash algorithm: SHA-256 (generated via GNU coreutils `sha256sum`)
+# Generation method (repo root):
+#   find docs -type f -print0 | sort -z | xargs -0 sha256sum > docs/SHA256SUMS
+# Verification method (ignoring these comment/blank lines):
+#   grep -vE '^[[:space:]]*(#|$)' docs/SHA256SUMS | sha256sum -c -
